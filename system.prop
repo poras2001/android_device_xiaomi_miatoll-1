@@ -1,6 +1,10 @@
 # Audio
 audio.offload.min.duration.secs=30
 
+#Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # Camera
 ro.miui.notch=1
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
@@ -65,10 +69,10 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 
 # Spark-OS
-ro.spark.device.name=Miatoll
-ro.spark.group.url=https://t.me/SparkOSMiatoll
-ro.spark.maintainer=popoASM
-ro.spark.maintainer.username=popoASM
+ro.spark.device.name=PocoM2Pro
+ro.spark.group.url=https://t.me/poromiya
+ro.spark.maintainer=Poras:)
+ro.spark.maintainer.username=poromiya
 
 # Telephony
 persist.vendor.ims.disableADBLogs=1
